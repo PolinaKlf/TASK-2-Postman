@@ -1,0 +1,62 @@
+{
+	"id": "1bc6bca0-7170-4b89-87ec-5ccec3cae146",
+	"name": "TASK 2",
+	"timestamp": "2021-04-28T20:47:09.412Z",
+	"collection_id": "6e08c8b6-a6b0-4fe2-b081-2eded0db60cf",
+	"folder_id": 0,
+	"environment_id": "caa7183c-1861-474c-9ba0-2b7e56a84e7c",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fe5079cb-5ec3-4e80-bc24-14a162ba979a",
+			"name": "object_info_4",
+			"url": "http://116.203.27.46:5002/object_info_4?age=22&name=Polina&salary=1000",
+			"time": 156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				156
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4779b952-8510-4821-9a3f-a0e1b92c68a5",
+			"name": "user_info_1",
+			"url": "http://116.203.27.46:5002/user_info_1",
+			"time": 108,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				108
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 264,
+	"collection": {
+		"requests": [
+			{
+				"id": "fe5079cb-5ec3-4e80-bc24-14a162ba979a",
+				"method": "GET"
+			},
+			{
+				"id": "4779b952-8510-4821-9a3f-a0e1b92c68a5",
+				"method": "POST"
+			}
+		]
+	}
+}
