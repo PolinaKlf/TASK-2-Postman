@@ -1,0 +1,106 @@
+{
+	"id": "1391f709-8ce7-442f-9135-cf74dfc025d2",
+	"name": "TASK 2",
+	"timestamp": "2021-04-28T19:54:39.633Z",
+	"collection_id": "6e08c8b6-a6b0-4fe2-b081-2eded0db60cf",
+	"folder_id": 0,
+	"environment_id": "caa7183c-1861-474c-9ba0-2b7e56a84e7c",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f4e7457c-c884-4e98-9bb2-93c3ee2b1b5e",
+			"name": "object_info_1",
+			"url": "http://116.203.27.46:5002/object_info_1?age=22&weight=57&name=Polina",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				90
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fba0de40-35c9-4b13-b1e9-e18293d8c271",
+			"name": "object_info_2",
+			"url": "http://116.203.27.46:5002/object_info_2?age=22&salary=1000&name=Polina",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				90
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "44fcc395-f0e1-4b8f-83a5-fab5e021052a",
+			"name": "user_info_3",
+			"url": "http://116.203.27.46:5002/user_info_3",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				160
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "992de63d-67db-40c7-9b2f-2204cb046227",
+			"name": "user_info_4",
+			"url": "http://116.203.27.46:5002/user_info_4",
+			"time": 409,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				409
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 749,
+	"collection": {
+		"requests": [
+			{
+				"id": "f4e7457c-c884-4e98-9bb2-93c3ee2b1b5e",
+				"method": "GET"
+			},
+			{
+				"id": "fba0de40-35c9-4b13-b1e9-e18293d8c271",
+				"method": "GET"
+			},
+			{
+				"id": "44fcc395-f0e1-4b8f-83a5-fab5e021052a",
+				"method": "POST"
+			},
+			{
+				"id": "992de63d-67db-40c7-9b2f-2204cb046227",
+				"method": "POST"
+			}
+		]
+	}
+}
